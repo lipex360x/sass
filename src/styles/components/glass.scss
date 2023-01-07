@@ -1,0 +1,29 @@
+@keyframes glassColor {
+  0%  {background-color: red;}
+  50% {background-color: green;}
+  100% {background-color: blue;}
+}
+
+@keyframes glassPosition {
+  0% { top: 45%; }
+  50% { top: 44%; }
+  100% { top: 45%; }
+}
+
+.glass {
+  background: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  
+  position: absolute;
+  top: 45%;
+  left: 55%;
+
+  transform: rotate(25deg) translate(-50%, -50%);
+  z-index: -1;
+
+  animation: 
+    glassColor 5s infinite linear alternate, 
+    glassPosition 3s infinite ease-in-out normal, 
+}
