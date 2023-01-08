@@ -1,3 +1,9 @@
+@keyframes shakeError {
+  0% { left: 50%; }
+  50% { left: 51%; }
+  100% { left: 49%; }
+}
+
 .main {
   width: 600px;
   height: 300px;
@@ -20,6 +26,11 @@
   gap: 2rem;
   justify-content: center;
   align-items: center;
+
+  &.error-shake {
+    animation: 
+    shakeError 0.1s 3 linear alternate,     
+  }
 
   h2 {
     @extend .font-xl;
