@@ -4,7 +4,7 @@
 ---
 
 <p align="center">
-  <img src="https://github.com/lipex360x/sass/blob/main/assets/screen.png" />
+  <img src="https://github.com/lipex360x/sass/blob/main/assets/live.gif" />
 </p>
 
 ---
